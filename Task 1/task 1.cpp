@@ -34,7 +34,7 @@ vector<int> getPath(int n, int m)
     return path;
 }
 
-int main()
+void main()
 {
     vector<int> param = input();
     vector<int> path1 = getPath(param[0], param[1]);
